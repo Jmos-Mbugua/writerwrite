@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #d6973b;
+    text-align: right;
+    height: 90px;
+    
+}
+
+/* #logo {
+    margin-left: 50px
+    
+} */
+
+nav> img {
+    height: 55px;
+    float: left;
+}
+nav>ul {
+    display: inline-block;
+    background-color: #d6973b;
+    align-content: right;
+}
+
+nav>ul>li {
+    display: inline;
+    list-style-type: none;
+    padding: 25px;
+    /* margin-bottom: 20px; */
+}
+
+nav>ul>li>a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #096b8f;
+    text-decoration: none;
+}
+
+nav>ul>li>a:hover {
+    background-color: #e8f5e9;
+    padding: 18px;
+    text-decoration: underline;
+}
+
+.welcome {
+    margin-top: -34px;
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+    padding: 0;
+    background-repeat: repeat;
+    background-image: url("https://searchengineland.com/figz/wp-content/seloads/2017/03/improve-account-performance-analytics-data-ss-1920.jpg");
+}
+
+.welcome>h1 {
+    color: #004d40;
+    padding-top: 275px;
+    font-size: 50px;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#links > ul{
+    list-style-type: none;
+}
+
+/* #intro {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    
+} */
+
+#intro > h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: cursive;
+}
+
+#intro p {
+    font-size: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* padding-top:1px; */
+    padding-bottom: 100px;
+    
+    text-align: center;
+}
+
+
+
+.marketing {
+    margin: 40px;
+    margin-bottom: 0px;
+}
+
+#idea1>p{
+    float: left;
+    width: 900px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+#idea1>img{
+    height: 300px;
+    width: 300px;
+}
+
+#image1 {
+    width: 400px;
+    height: 350px;
+    /* float: right; */
+}
+
+.writing {
+    clear: both;
+    margin: 40px;
+    margin-bottom: 0px;
+
+}
+
+.writing>h3 {
+    text-align: center;
+}
+
+#idea2>p{
+    float: right;
+    width: 900px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+#idea2>img{
+    height: 300px;
+    width: 300px;
+}
+
+#image2 {
+    width: 400px;
+    height: 350px;
+    /* float: right; */
+}
+
+.web {
+    clear: both;
+    background-color: #1c5a4a;
+    height: 150px;
+    text-align: center;
+    
+}
+
+
+footer {
+    background-color: #d6973b;
+    height: 150px;
+    margin: 0;
+}
+
+ul> li> a {
+    color: #177395;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
+
+ul>li>a:hover {
+    background-color:grey;
+    padding: 1px;
+    text-decoration: underline;
+}
+.subfooter {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 10px;
+    margin: 10px;
+    padding-right: 50px;
+    
+}
+
+#copyright {
+    text-align: center;
+    background-color: #d6973b;
+    margin-top: -10px;
+    color: white;
+}
+
+#Contactus > ul >li {
+    padding-top: 5px;
+    color: #197597;
+     list-style-type: none;
+    font-size: 18px;
+    
+    
+}
+
+  
+
+
+/* About Us */
+.mission {
+    float: left;
+    margin-left: 50px;
+    border: 2px dashed red;
+    background-color: #d4a122;
+}
+
+.achievements {
+    clear: both;
+    float: right;
+    margin-right: 50px;
+    width: 60%;
+}
+
+/* Services */
+
+
+
+.creative {
+    font-family:'Times New Roman', sans serif;
+    
+    height:100px;
+    align-content: center;
+    text-align: center;
+    /* background-color: #126c93; */
+    
+}
+.creative > h3 {
+    font-family: cursive;
+    margin-top: 0;
+    padding-top: 50px;
+    font-style: italic;
+
+}
+.services {
+    margin-top:70px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 80%;
+    align-content: center;
+    
+    
+}
+
+.cover {
+    background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-bottom: 120px;
+
+}
+
+.content,
+.design,
+.article,
+.internet {
+    padding: 30px;
+    box-shadow: 5px 5px 12px grey;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 20px;
+    
+
+}
+
+.habits {
+    
+    align-content: center;
+    margin-left: 50px;
+    width: 60%;
+}
+
+
+.habits {
+    font-style: italic;
+    margin-top: 60px;
+}
+
+.habits > p {
+    justify-content: center;
+    
+
+}
+
+.time > h3 {
+    font-style: italic;
+}
+
+.time {
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    width: 60%;
+    margin-top: 60px;
+
+}
+
+#apartment > h3{
+    margin-top: 60px;
+}
+
+#apartment > p {
+    font-style: italic;
+    text-align: center;
+    width: 60%;
+}
